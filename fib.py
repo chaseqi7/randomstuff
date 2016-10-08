@@ -1,4 +1,16 @@
-n=input("how many lines you want to print")
-lineNumber=1
-for x in range(0, n):
-	standardList.append("o")
+counter=input("which one you want to print")
+a=0
+b=1
+n=0
+while n<counter:
+
+	print a
+	a=a+b
+	n=n+1
+	if(n<counter):
+		print b
+		b=a+b
+		n=n+1
+
+	
+
